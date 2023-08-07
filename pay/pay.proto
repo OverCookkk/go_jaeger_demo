@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package pay;
+option go_package = "./pay";
+
+message PayReq {
+    string name = 1;
+}
+
+message PayResp {
+    string greet = 1;
+}
+
+service Pay {
+    rpc greet(PayReq) returns (PayResp);
+}
+// goctl rpc protoc pay.proto --go_out=./ --go-grpc_out=./ --zrpc_out=./ --style=goZero

@@ -1,0 +1,24 @@
+syntax = "v1"
+
+info(
+	title: "type title here"
+	desc: "type desc here"
+	author: "type author here"
+	email: "type email here"
+	version: "type version here"
+)
+
+type request {
+	UserName string `json:"user_name"`
+}
+
+type response {
+	Code int `json:"code"`
+}
+
+service user {
+	@handler user
+	post /users (request) returns (response)
+}
+
+//goctl api go -api .\user.api -dir . --style=goZero
