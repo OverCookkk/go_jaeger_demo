@@ -2,7 +2,7 @@ Name: user
 Host: 0.0.0.0
 Port: 9001
 
-LogConf:
+Log:
   ServiceName: user
   Mode: file
   Path: logs
@@ -17,3 +17,9 @@ Telemetry:
 PayRpcConf:
   Endpoints:
     - 0.0.0.0:9002
+  NonBlock: true  # 弱依赖
+
+#OrderRpcConf:
+#  Endpoints:
+#    - 0.0.0.0:9003
+#  NonBlock: true  # 弱依赖

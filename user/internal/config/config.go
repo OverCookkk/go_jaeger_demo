@@ -8,4 +8,5 @@ import (
 type Config struct {
 	rest.RestConf
 	PayRpcConf zrpc.RpcClientConf
+	// OrderRpcConf zrpc.RpcClientConf
 }

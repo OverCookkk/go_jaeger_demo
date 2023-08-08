@@ -1,0 +1,16 @@
+syntax = "v1"
+
+type request {
+	OrderName string `json:"order_name"`
+}
+
+type response {
+	Msg string `json:"msg"`
+}
+
+service order {
+	@handler order
+	post /order (request) returns (response)
+}
+
+//goctl api go -api .\order.api -dir . --style=goZero

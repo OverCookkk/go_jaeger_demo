@@ -12,12 +12,14 @@ import (
 type ServiceContext struct {
 	Config       config.Config
 	PayRpcClient payclient.Pay
+	// OrderRpcClient orderclient.Order
 }
 
 func NewServiceContext(c config.Config) *ServiceContext {
 	return &ServiceContext{
 		Config:       c,
 		PayRpcClient: payclient.NewPay(zrpc.MustNewClient(c.PayRpcConf, zrpc.WithUnaryClientInterceptor(TokenuidIntereptor))),
+		// OrderRpcClient: orderclient.NewOrder(zrpc.MustNewClient(c.OrderRpcConf, zrpc.WithUnaryClientInterceptor(TokenuidIntereptor))),
 	}
 }
 
