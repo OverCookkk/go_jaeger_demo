@@ -2,7 +2,7 @@
 
 基于go-zero框架写的jaeger链路追踪demo，包含两个服务，user和order是一个提供http接口的服务，pay是一个提供rpc接口的服务，具体调用方式如图所示：
 
-![go_jaeger_demo_2](https://raw.githubusercontent.com/OverCookkk/PicBed/master/blogImg/go_jaeger_demo_2.jpg)
+<img src="https://raw.githubusercontent.com/OverCookkk/PicBed/master/blogImg/go_jaeger_demo_2.jpg" alt="go_jaeger_demo_2" style="zoom:50%;" />
 
 ## 部署与运行
 
