@@ -1,8 +1,6 @@
 # go_jaeger_demo
 
-基于go-zero框架写的jaeger链路追踪demo，包含两个服务，user和order是一个提供http接口的服务，pay是一个提供rpc接口的服务，具体调用方式如图所示：
-
-<img src="https://raw.githubusercontent.com/OverCookkk/PicBed/master/blogImg/go_jaeger_demo_2.jpg" alt="go_jaeger_demo_2" style="zoom:50%;" />
+该项目包含两种类型的go使用jaeger的demo，分别存在**go_zero_demo**和**other_demo**两个目录。
 
 ## 部署与运行
 
@@ -24,9 +22,15 @@
 
 
 
-### 启动服务
+### 基于go-zero框架的demo
 
-go-zero框架本身就 已经支持jaeger，只需要配置好就可以
+基于go-zero框架写的jaeger链路追踪demo，**go_zero_demo**目录包含三个服务，user和order是一个提供http接口的服务，pay是一个提供rpc接口的服务，具体调用方式如图所示：
+
+<img src="https://raw.githubusercontent.com/OverCookkk/PicBed/master/blogImg/go_jaeger_demo_2.jpg" alt="go_jaeger_demo_2" style="zoom:50%;" />
+
+
+
+go-zero框架本身就已经支持jaeger，只需要配置好就可以；
 
 **注意：go-zero框架的api和rpc服务调用下游服务的使用都需要传递上下文context，这样下游服务和上游服务才会是同一个trace_id**
 
@@ -47,6 +51,16 @@ go-zero框架本身就 已经支持jaeger，只需要配置好就可以
    ![go_jaeger_demo_3](https://raw.githubusercontent.com/OverCookkk/PicBed/master/blogImg/go_jaeger_demo_3.png)
 
 
+
+
+
+### 基于其他框架的demo
+
+**other_demo**目录包含三个服务，user和order是一个提供http接口的服务，pay是一个提供rpc接口的服务，主要使用`"github.com/opentracing/opentracing-go"`和`"github.com/uber/jaeger-client-go"`库。
+
+1. 对于http调用，客户端生成的追踪信息注入http的header中，服务端再从http的header中获取出来，从而把链路关联起来。
+
+2. 对于grpc使用3方库来操作，调研测试了grpc-jaeger，grpc-jaeger 是 Go 实现的一种 gRPC 拦截器，它基于 opentracing 和 uber/jaeger。您可以使用它来构建分布式 gRPC 跟踪系统。它的内部不需要特殊处理就可以把跨进程的调用串联到一起。
 
 
 
