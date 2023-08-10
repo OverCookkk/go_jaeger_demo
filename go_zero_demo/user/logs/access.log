@@ -1,0 +1,25 @@
+{"@timestamp":"2023-08-08T14:20:58.156+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"bb23361a7a05fc4c","trace":"3832c8a0176bf0c7bc1d50be9449eac4"}
+{"@timestamp":"2023-08-08T14:44:06.172+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"3538d6dae6b59a78","trace":"1ca0468ca1656e90ccf7c205173922b7"}
+{"@timestamp":"2023-08-08T15:17:04.581+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"d5b0a5e8d885df2b","trace":"3078a270d413f1f4ed693009925f9483"}
+{"@timestamp":"2023-08-08T15:28:16.167+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"fb8f15d0456b3d66","trace":"49459ae93e3af202fd0a0248fbe9713c"}
+{"@timestamp":"2023-08-08T15:30:56.990+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"a1acb7e1e81bae4d","trace":"36b20e9d66e426f012b85c1bd011b365"}
+{"@timestamp":"2023-08-08T15:31:46.506+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"3fd1e1024d05ced2","trace":"3231b24bfb65b386f256a8413c2d5551"}
+{"@timestamp":"2023-08-08T15:33:15.883+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"cb78ecaee25579e0","trace":"db9bf552057a8f02827ecef489990194"}
+{"@timestamp":"2023-08-08T15:34:51.595+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"3709743b3d52c7ab","trace":"11e2e05e353a16c0f6f3fc246ea541d1"}
+{"@timestamp":"2023-08-08T15:40:35.535+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"3846bb86a02a853f","trace":"dd37ebf43a45ef8104e7782381e360ec"}
+{"@timestamp":"2023-08-08T15:45:28.717+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"e12a41ebbd7f9b58","trace":"fd95d8775eb5dc1b6a8cd56910c42de4"}
+{"@timestamp":"2023-08-08T15:46:44.742+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"023b5d095e67b4e5","trace":"3ba0677169aa48bbc9b69f7c48e3db47"}
+{"@timestamp":"2023-08-08T15:47:03.027+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"13d109a442b6d98b","trace":"2dd1c0dcaf84347eee7839f453b64ee2"}
+{"@timestamp":"2023-08-08T15:47:17.615+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"0b67947cf742c1ea","trace":"f6cc3e87e8a7cd36fa670c0d26987861"}
+{"@timestamp":"2023-08-08T15:52:36.693+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"dde5b42d254f7c98","trace":"f17a7aa437cbb772bc3b9ea01c8f5190"}
+{"@timestamp":"2023-08-08T15:52:57.026+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"ff056779d9e55d00","trace":"65f7a1c0d590b9d6ad2629a943d12278"}
+{"@timestamp":"2023-08-08T16:13:03.454+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"3fc93e527dbfc6db","trace":"dabc07f796c181fd042b41f17ddc003d"}
+{"@timestamp":"2023-08-08T16:13:19.973+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"16ce6de2cbfc17f0","trace":"907de9a00bd7279ff18e74c6f7eb910d"}
+{"@timestamp":"2023-08-08T16:18:08.819+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"a2e186848dfd36e8","trace":"4dd1f20ea27a84b8cecebee1ada49367"}
+{"@timestamp":"2023-08-08T16:31:22.413+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"89ad22e65d543eab","trace":"3e321f77ef230fffe1466b09e420ea60"}
+{"@timestamp":"2023-08-08T16:31:42.221+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"973c6357318d4eab","trace":"4f4c9e6e5ca5040c64f08c43b2affc18"}
+{"@timestamp":"2023-08-08T16:31:53.258+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"d1df26d78e9d05c9","trace":"3fb9a230ebfcc2a871917ccf54c87f3f"}
+{"@timestamp":"2023-08-08T16:32:12.927+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"026b7b8a18e5418c","trace":"d5999bf26de0db7e67424325738a8db2"}
+{"@timestamp":"2023-08-08T16:32:15.928+08:00","caller":"logic/userLogic.go:51","content":"Post \"http://127.0.0.1:9003/order\": context deadline exceeded","level":"debug","span":"026b7b8a18e5418c","trace":"d5999bf26de0db7e67424325738a8db2"}
+{"@timestamp":"2023-08-08T16:40:34.148+08:00","caller":"logic/userLogic.go:29","content":"User name: cy123","level":"debug","span":"28bf707689736e91","trace":"7187bcb1ac2268ce1af43096f168e57a"}
+{"@timestamp":"2023-08-08T16:40:37.150+08:00","caller":"logic/userLogic.go:51","content":"Post \"http://127.0.0.1:9003/order\": context deadline exceeded","level":"debug","span":"28bf707689736e91","trace":"7187bcb1ac2268ce1af43096f168e57a"}

@@ -1,0 +1,4 @@
+{"@timestamp":"2023-08-08T16:32:12.929+08:00","caller":"logic/greetLogic.go:27","content":"PayReq name: cy123","level":"debug","span":"daf31cd8447650fa","trace":"47612bedebe14a1e95d1e78247ed0e09"}
+{"@timestamp":"2023-08-08T16:32:12.929+08:00","caller":"serverinterceptors/statinterceptor.go:90","content":"127.0.0.1:63138 - /pay.Pay/greet - {\"name\":\"cy123\"}","duration":"0.0ms","level":"info","span":"daf31cd8447650fa","trace":"47612bedebe14a1e95d1e78247ed0e09"}
+{"@timestamp":"2023-08-08T16:40:34.148+08:00","caller":"logic/greetLogic.go:27","content":"PayReq name: cy123","level":"debug","span":"366283019732ae22","trace":"2835fd937f7612ac3ddc631f7bd7e761"}
+{"@timestamp":"2023-08-08T16:40:34.149+08:00","caller":"serverinterceptors/statinterceptor.go:90","content":"127.0.0.1:63536 - /pay.Pay/greet - {\"name\":\"cy123\"}","duration":"0.0ms","level":"info","span":"366283019732ae22","trace":"2835fd937f7612ac3ddc631f7bd7e761"}

@@ -1,0 +1,4 @@
+{"@timestamp":"2023-08-08T16:33:27.089+08:00","caller":"logic/orderLogic.go:26","content":"OrderReq name: cy123","level":"debug","span":"ece90585f60e56b9","trace":"d5999bf26de0db7e67424325738a8db2"}
+{"@timestamp":"2023-08-08T16:33:27.089+08:00","caller":"handler/loghandler.go:155","content":"[HTTP] 499 - POST /order - 127.0.0.1:63144 - Go-http-client/1.1","duration":"945.2ms","level":"info","span":"ece90585f60e56b9","trace":"d5999bf26de0db7e67424325738a8db2"}
+{"@timestamp":"2023-08-08T16:44:16.421+08:00","caller":"logic/orderLogic.go:26","content":"OrderReq name: cy123","level":"debug","span":"43ffcea5c8eb49f1","trace":"7187bcb1ac2268ce1af43096f168e57a"}
+{"@timestamp":"2023-08-08T16:44:16.421+08:00","caller":"handler/loghandler.go:155","content":"[HTTP] 499 - POST /order - 127.0.0.1:63739 - Go-http-client/1.1","duration":"0.0ms","level":"info","span":"43ffcea5c8eb49f1","trace":"7187bcb1ac2268ce1af43096f168e57a"}

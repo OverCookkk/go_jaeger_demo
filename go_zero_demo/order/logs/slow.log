@@ -1,0 +1,1 @@
+{"@timestamp":"2023-08-08T16:33:27.089+08:00","caller":"handler/loghandler.go:132","content":"[HTTP] 499 - POST /order - 127.0.0.1:63144 - Go-http-client/1.1 - slowcall(945.2ms)","duration":"945.2ms","level":"slow","span":"ece90585f60e56b9","trace":"d5999bf26de0db7e67424325738a8db2"}
